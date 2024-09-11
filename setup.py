@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     author='One Octadion',
     author_email='octadion.ai@gmail.com',
-    description='library calculating distances, converted from ml-distance JS',
+    description='Library calculating distances, converted from ml-distance JS',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/octadion/ml-distance',
@@ -20,4 +20,5 @@ setup(
     install_requires=[
         'numpy',
     ],
+    scripts=['scripts/similarity.py'],
 )

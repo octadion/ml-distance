@@ -1,5 +1,5 @@
 import numpy as np
-from src.similarities import cosine
+from ml_distance.similarities import cosine
 
 query_embedding = np.array([1, 2, 3])
 doc_embedding = np.array([4, 5, 6])
