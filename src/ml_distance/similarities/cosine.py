@@ -16,4 +16,4 @@ def cosine(a: List[float], b: List[float]) -> float:
         p += a[i] * b[i]
         p2 += a[i] * a[i]
         q2 += b[i] * b[i]
-    return p / (math.sqrt(p2) * math.sqrt(q2))
+    return float(p / (math.sqrt(p2) * math.sqrt(q2)))
